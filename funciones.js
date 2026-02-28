@@ -1,18 +1,12 @@
-const obtenertitulo = () => `Bootcamp desarrollo fullstack con Node,js`;
+export function obtenerTitulo() { return `Bootcamp desarrollo fullstack con Node,js`; }
 
-const obtenerEjecutor = (autor) => 'El ejecutor del bootcamp es ${autor}';
 
-const obtenerMentor = (Mentor) => 'El ejecutor del bootcamp es ${Mentor}';
+export const obtenerEjecutor = (autor) => `El ejecutor del bootcamp es ${autor}`;
 
-const obtenerMonitor = (Monitor) => 'El ejecutor del bootcamp es ${Monitor}';
+export const obtenerMentor = (Mentor) => `El ejecutor del bootcamp es ${Mentor}`;
 
-export function obtenerTitulo (titulo){
-    return 'El titulo es ${Bootcamp desarrollo fullstack';}
-export function obtenerEjecutor (obtenerEjecutor){
-    return obtenerEjecutor;}
-export function obtenerMentor (obtenerMentor){
-     return obtenerMentor}
-export function obtenerMonitor(obtenerMonitor){
-    return obtenerMonitor
-}
-    
+export const obtenerMonitor = (Monitor) => `El ejecutor del bootcamp es ${Monitor}`;
+
+
+
+
